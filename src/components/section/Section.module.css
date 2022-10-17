@@ -1,8 +1,10 @@
 .section {
- text-align: center;
+  text-align: center;
+  padding: 20px;
+  outline: 1px dashed grey;
 }
 
-
-.section__title {
-    font-size: 32px;
+.sectionTitle {
+  font-size: 24px;
+  margin: 0 0 20px;
 }
