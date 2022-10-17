@@ -9,8 +9,8 @@ import data from 'data/data.json';
 import FriendList from 'components/FriendList/FriendList';
 import friends from 'data/friends.json';
 
-import TransactionHistory from 'components/TransactionHistory/TransactionHistory'
-import transactions from 'data/transactions.json'
+import TransactionHistory from 'components/TransactionHistory/TransactionHistory';
+import transactions from 'data/transactions.json';
 
 function App() {
   return (
@@ -24,23 +24,21 @@ function App() {
           stats={user.stats}
         />
       </Section>
-        
+
       <Section title="Task 2. Stat section">
         <Statistics title="Upload stats" stats={data} />
-        
       </Section>
 
-      <Section >
-        
+      <Section>
         <Statistics stats={data} />
       </Section>
-       
+
       <Section title="Task 3. Friend list">
-         <FriendList friends={friends} />
+        <FriendList friends={friends} />
       </Section>
 
       <Section title="Task 4. Trasaction history">
-         <TransactionHistory items={transactions} />
+        <TransactionHistory items={transactions} />
       </Section>
     </>
   );
