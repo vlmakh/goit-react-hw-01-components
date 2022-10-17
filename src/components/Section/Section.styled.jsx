@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const TaskSection = styled.div`
+export const Task = styled.div`
   text-align: center;
   padding: 20px;
   width: 600px;

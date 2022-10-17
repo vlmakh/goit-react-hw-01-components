@@ -11,7 +11,7 @@ import {
   Quantity,
 } from './Profile.styled';
 
-function Profile({ username, tag, location, avatar, stats }) {
+export function Profile({ username, tag, location, avatar, stats }) {
   return (
     <ProfileCard>
       <Description>
@@ -46,5 +46,3 @@ Profile.propTypes = {
   avatar: PropTypes.string,
   stats: PropTypes.objectOf(PropTypes.number),
 };
-
-export default Profile;

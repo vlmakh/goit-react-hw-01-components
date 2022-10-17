@@ -9,7 +9,7 @@ import {
 } from './Statistics.styled';
 import getRandomHexColor from 'utils/getRandomHexColor';
 
-function Statistics({ title, stats }) {
+export function Statistics({ title, stats }) {
   return (
     <Stats>
       {title && <Title>{title}</Title>}
@@ -43,5 +43,3 @@ Statistics.propTypes = {
     })
   ),
 };
-
-export default Statistics;

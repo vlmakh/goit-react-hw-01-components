@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { List, Friend, Status, Avatar, Name } from './FriendList.styled';
 
-function FriendList({ friends }) {
+export function FriendList({ friends }) {
   return (
     <List>
       {friends.map(friend => {
@@ -16,8 +16,6 @@ function FriendList({ friends }) {
     </List>
   );
 }
-
-export default FriendList;
 
 FriendList.propTypes = {
   friends: PropTypes.arrayOf(

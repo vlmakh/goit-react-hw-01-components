@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { TransactionTable } from './TransactionHistory.styled';
 
-function TransactionHistory({ items }) {
+export function TransactionHistory({ items }) {
   return (
     <TransactionTable>
       <thead>
@@ -26,8 +26,6 @@ function TransactionHistory({ items }) {
     </TransactionTable>
   );
 }
-
-export default TransactionHistory;
 
 TransactionHistory.propTypes = {
   items: PropTypes.arrayOf(

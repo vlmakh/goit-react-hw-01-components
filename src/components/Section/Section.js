@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
-import { TaskSection, TaskTitle } from './Section.styled';
+import { Task, TaskTitle } from './Section.styled';
 
-function Section({ title, children }) {
+export function Section({ title, children }) {
   return (
-    <TaskSection>
+    <Task>
       {title && <TaskTitle>{title}</TaskTitle>}
       {children}
-    </TaskSection>
+    </Task>
   );
 }
 
@@ -14,5 +14,3 @@ Section.propTypes = {
   title: PropTypes.string,
   children: PropTypes.node,
 };
-
-export default Section;
