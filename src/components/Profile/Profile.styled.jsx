@@ -39,7 +39,7 @@ export const Location = styled.p`
 `;
 
 export const Stats = styled.ul`
-list-style: none;
+  list-style: none;
   display: flex;
   margin: 0;
   padding: 0;
@@ -47,11 +47,12 @@ list-style: none;
   background-color: lightgray;
 
   li {
-  width: 90px;
-  padding: 20px 0;
-
+    width: 90px;
+    padding: 20px 0;
+  }
   li:not(:last-child) {
-  border-right: 1px solid darkgrey;
+    border-right: 1px solid darkgrey;
+  }
 `;
 
 export const Label = styled.span`
