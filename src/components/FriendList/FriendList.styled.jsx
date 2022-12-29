@@ -9,7 +9,7 @@ export const List = styled.ul`
   width: 300px;
 `;
 
-export const Friend = styled.li`
+export const FriendListItem = styled.li`
   display: flex;
   align-items: center;
   gap: 10px;

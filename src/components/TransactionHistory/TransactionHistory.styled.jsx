@@ -20,12 +20,12 @@ export const TransactionTable = styled.table`
     border: 1px solid darkgrey;
   }
 
-  td:first-child {
+  td:first-of-type {
     text-align: left;
     padding-left: 52px;
   }
 
-  td:nth-child(2) {
+  td:nth-of-type(2) {
     text-align: right;
     padding-right: 60px;
   }
